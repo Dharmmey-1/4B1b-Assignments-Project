@@ -1,3 +1,6 @@
+# A program that coverts user input into a dictionary 
+
+
 data = input("Enter user profile: ")
 data_list = data.split(" ")
 if len(data_list) % 2 != 0:
@@ -6,9 +9,10 @@ if len(data_list) % 2 != 0:
         enter_value = input("Enter a Value: ")
         data_list.append(enter_value)
     else:
-        data_list.remove(data_list[-1])    
+        data_list.remove(data_list[-1])  
+
         
-    
+
 for data in range(len(data_list)):
     if data_list[data].isnumeric() == True:
         data_list[data] = int(data_list[data])
