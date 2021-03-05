@@ -1,4 +1,4 @@
-
+# A program that returns the second largest number from user input
 user_input = input("Please enter five integers: ")
 user_inputs = user_input.split(" ")
 
