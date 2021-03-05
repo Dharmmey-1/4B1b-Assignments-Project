@@ -1,3 +1,4 @@
+# A program that checks for the multiple of 9 13 17 21 11 19
 user_integer =  int(input("Please an integer: "))
 
 if (user_integer % 9 == 0) and (user_integer % 13 == 0) and (user_integer % 17 == 0) and (user_integer % 21 == 0):
