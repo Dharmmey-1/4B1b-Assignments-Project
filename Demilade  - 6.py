@@ -1,4 +1,4 @@
-Write a program that returns the number of time a word or letter  occurs in a string
+# A program that returns the number of time a sub-string  occurs in a  parent string
 user_input = input("Enter a word: ").lower()
 txt = input("Enter the word you want to check: ").lower()
 count = user_input.count(txt)
