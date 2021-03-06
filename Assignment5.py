@@ -1,3 +1,5 @@
+# Write a program that takes in two integers, multiply them and return the result.
+
 data = input("Enter integers here: ")
 data_list = data.split(" ")
 print(data_list)
