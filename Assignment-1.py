@@ -1,18 +1,18 @@
+# Find the second highest number from the numbers given by the user 
+
 get_data = input("Enter data here: ")
 
 otu_num = get_data.split(" ")
-otu_num[0] = int(otu_num[0])
-otu_num[1] = int(otu_num[1])
-otu_num[2] = int(otu_num[2])
-otu_num[3] = int(otu_num[3])
-otu_num[4] = int(otu_num[4])
-
 print(otu_num)
 
-#Using .sort
-otu_num.sort()
+# Using for loop
+for d in rang(len(otu_num)):
+  otu_num[d] = int(otu_num[d])
+  
+print(otu_num)
 
-print(f"the second highest is {otu_num[-2]}")
+otu_num.sort()
+print(f"The second largest number is {otu_num[-2]}")
 
 #Using Max
 # real_max = max(otu_num)
@@ -24,3 +24,4 @@ print(f"the second highest is {otu_num[-2]}")
 # find_secmax = max(otu_num)
 
 # print(f"the second highest number is {find_secmax}")
+
