@@ -1,3 +1,6 @@
+# Write a program that takes in a number and returns the multiple of 
+# 9, 11, 13, 17, 21
+
 get_num = input("Enter number here ")
 otu_num = int(get_num)
 
