@@ -1,3 +1,6 @@
+# Write a program that takes in data from the user, pairs them and returns the data in dictionary format.
+# If there's a key without value, ask the user what action to take on that key. 
+
 data = input("Enter user data here: ")
 data_list = data.split(" ")
 # print(data_list)
