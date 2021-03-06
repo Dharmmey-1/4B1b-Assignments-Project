@@ -1,3 +1,6 @@
+# Write a program that takes in two input and returns true if they have something
+# in common and false if they don't. 
+
 otu_data = input("Enter first data here: ").lower()
 drey_data = input("Enter second data here: ").lower()
 
