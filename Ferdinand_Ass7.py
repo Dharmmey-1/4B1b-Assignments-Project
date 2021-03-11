@@ -43,10 +43,10 @@ for date in unique_sorted_dates:
 
 # print(len(sorted_transaction_list))
 
-with open("/Users/drizzytom/Documents/PHYTHON/Data_Sci/transachub.txt", mode = "w", encoding="utf-8") as my_file:
+# with open("/Users/drizzytom/Documents/PHYTHON/Data_Sci/transachub.txt", mode = "w", encoding="utf-8") as my_file:
 
-  for transac in sorted_transaction_list:
-    my_file.write("{}\n".format(transac))
+#   for transac in sorted_transaction_list:
+#     my_file.write("{}\n".format(transac))
 
 # my_file.close()
 
@@ -139,9 +139,9 @@ sheet_two.write(1, 5, "₦{0:.2f}".format(total_sales * 0.2))
 sheet_two.write(1, 6, "₦{}".format(total_sales - (total_sales * 0.2)))
 
 
-name_myfile = "/Users/drizzytom/Documents/PHYTHON/Data_Sci/transachub.xls"
-book.save(name_myfile)
-book.save(TemporaryFile())
+# name_myfile = "/Users/drizzytom/Documents/PHYTHON/Data_Sci/transachub.xls"
+# book.save(name_myfile)
+# book.save(TemporaryFile())
 
 ## Top 5 performing agents
 list_unique_agent = list(agent_set)
