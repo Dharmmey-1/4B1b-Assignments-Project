@@ -6,7 +6,7 @@ otu_num = get_data.split(" ")
 print(otu_num)
 
 # Using for loop
-for d in rang(len(otu_num)):
+for d in range(len(otu_num)):
   otu_num[d] = int(otu_num[d])
   
 print(otu_num)
